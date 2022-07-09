@@ -31,9 +31,23 @@ span{
 }
 a{
     margin-right: 10px;
-    background-color: mediumvioletred;
+   
 }
-div{
+.learnig{
+   font-size: 20px;
+   margin-left: 20%;
+}
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: red;
+}
+li:nth-child(2n){
+    color: magenta;
+}
+
+.block-element div{
     background-color: blueviolet;
     width: 300px;
     height: 150px;
@@ -47,4 +61,38 @@ div{
 }
 .div-class h2{
     display: inline-block
+}
+.middel:focus{
+    color: blue;
+    border: 10px;
+    font-weight: 700;
+    border-color: red;
+}
+a:visited{
+    color: rgb(184, 111, 15);
+}
+h5::before{
+    content: 'Hello ';
+    color: blue;
+}
+h5::after{
+    content: ' end';
+    font-size: 24px;
+}
+.swimming{
+    position: relative;
+}
+.swimming img{
+    width: 300px;
+    height: 300px;
+}
+#sky{
+    position: relative;
+    left: 100px;
+    z-index: 20;
+}
+#shonkor{
+    position: fixed;
+    right: 0px;
+    top: 0px;
 }
