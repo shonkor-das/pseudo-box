@@ -1,0 +1,50 @@
+h1{
+    color: blue;
+    background-color: aqua;
+}
+h2{
+    background-color: aqua;
+}
+h3{
+    background-color: green;
+    color: white;
+    border: 25px solid gold;
+    padding: 15px;
+}
+h4{
+    color: white;
+    padding: 10px;
+    background-color: royalblue;
+}
+h4:hover{
+    color: black;
+    background-color: goldenrod;
+}
+
+p{
+    background-color: magenta;
+    
+}
+span{
+    background-color: brown;
+    color: white;
+}
+a{
+    margin-right: 10px;
+    background-color: mediumvioletred;
+}
+div{
+    background-color: blueviolet;
+    width: 300px;
+    height: 150px;
+    color: white;
+    padding: 10px 0;
+    margin: 15PX;
+}
+.div-class{
+    display: flex;
+    margin-left: 15%;
+}
+.div-class h2{
+    display: inline-block
+}
